@@ -80,3 +80,32 @@ console.log(z(2,2))
 
 let y = (a,b,c)=>{return a+b+c}
 console.log(y(1,2,4))
+
+
+
+
+
+
+let cc = ["hi","hello","computer"];                        //Assigning first letter of the word in caps
+function capitalizeFirstLetter(cc) {
+    var result = [];
+    
+    for(var i=0;i<=a.length-1;i++)
+    {
+      result.push(cc[i].charAt(0).toUpperCase()+cc[i].slice(1));
+    }
+    return result;
+}console.log(capitalizeFirstLetter(cc));
+
+
+
+
+
+const cp = (arr)=>{
+    let result = [];
+    for(var i =0;i<=arr.length-1;i++){
+        result.push(arr[i].charAt(0).toUpperCase()+arr[i].slice(1));
+    }
+    return result;
+}
+console.log(cp(["good morning","happy","hello"]))
