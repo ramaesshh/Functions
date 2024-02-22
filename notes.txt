@@ -1,0 +1,5 @@
+types of functiom
+1.Function
+2.Anonymous function
+3.IIFE(Imediately Invoked Function Expression)
+4.Arrow function(ES6)
